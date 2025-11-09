@@ -44,7 +44,7 @@ namespace documents_shashin.Elements
         {
             Document.Delete();
             MainWindow.init.AllDocuments = new DocumentContext().AllDocuments();
-            MainWindow.init.OpenPages(MainWindow.Pages.main);
+            MainWindow.init.OpenPages(MainWindow.pages.main);
         }
     }
 }
