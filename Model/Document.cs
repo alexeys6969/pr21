@@ -15,6 +15,6 @@ namespace documents_shashin.Model
         public int id_document { get; set; }
         public DateTime date { get; set; }
         public int status { get; set; }
-        public int vector { get; set; }
+        public string vector { get; set; }
     }
 }

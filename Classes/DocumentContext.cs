@@ -26,7 +26,7 @@ namespace documents_shashin.Classes
                 newDocument.id_document = dataDocuments.GetInt32(4);
                 newDocument.date = dataDocuments.GetDateTime(5);
                 newDocument.status = dataDocuments.GetInt32(6);
-                newDocument.vector = dataDocuments.GetInt32(7);
+                newDocument.vector = dataDocuments.GetString(7);
                 allDocuments.Add(newDocument);
             }
             Common.DBConnection.CloseConnection(connection);
